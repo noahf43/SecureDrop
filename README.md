@@ -33,7 +33,7 @@ SecureDrop is a secure file-sharing application designed to prioritize user conf
    pip install pycryptodome
 - Follow the prompts for registration or login.
 ### **Files Overview**
-- `SecureDrop.py`: Main program logic for user registration, authentication, and shell interface.
+- `main.py`: Main program logic for user registration, authentication, and shell interface.
 - `Helper.py`: Utility functions for encryption, validation, and network operations.
 - `user.json`: Stores encrypted user credentials.
 - `contact.json`: Stores encrypted contact lists.
@@ -42,7 +42,7 @@ SecureDrop is a secure file-sharing application designed to prioritize user conf
 ### **Running the Program**
 1. Start the application:
    ```bash
-   python SecureDrop.py
+   python main.py
  ## **Key Functionalities**
 - **Register a New User**:
   - Enter your full name, email, and password during registration.
